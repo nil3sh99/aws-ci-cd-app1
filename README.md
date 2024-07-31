@@ -1,5 +1,7 @@
 # AWS CDK and CI-CD
 
+Repository link: https://github.com/nil3sh99/aws-ci-cd-app1
+
 ###### What is AWS CDK?
 
 The AWS CDK is an open-source framework that you can use to manage your AWS infrastructure using code. This approach is known as  *infrastructure as code (IaC)* . By managing and provisioning your infrastructure as code, you treat your infrastructure in the same way that developers treat code. This provides many benefits, such as version control and scalability.
@@ -38,7 +40,6 @@ Once the above command is executed successfully, run the following command to cr
 `cdk deploy`
 
 Now, how can we automate all these steps, so that every time a commit is pushed to your github repository, the respective actions are triggered inside AWS.
-
 
 # Welcome to your CDK TypeScript project
 
